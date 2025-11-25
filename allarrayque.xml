@@ -1,0 +1,154 @@
+🔥 15 MERN-Important Array Problems (Beginner → Advanced)
+✅ 1. Double each number using map
+
+Input: [1, 2, 3, 4]
+Output: [2, 4, 6, 8]
+Concepts: map, arrow functions
+
+✅ 2. Filter users who are active
+const users = [
+  { id: 1, name: "Amit", active: true },
+  { id: 2, name: "Rahul", active: false },
+  { id: 3, name: "Sneha", active: true }
+];
+
+
+Output: only users with active: true
+Concepts: filter, array of objects
+
+✅ 3. Get all user names
+
+Input: array of user objects
+Output: array of names
+Concepts: map
+
+✅ 4. Find total price of products
+const products = [
+  { name: "Laptop", price: 50000 },
+  { name: "Mouse", price: 500 },
+  { name: "Keyboard", price: 1500 }
+];
+
+
+Output: 52000
+Concepts: reduce, array of objects
+
+✅ 5. Sort students by marks (descending)
+
+Concepts: sort, custom comparator
+
+✅ 6. Find a user by email
+
+Concepts: find()
+
+✅ 7. Remove duplicate values
+
+Input: [1, 2, 2, 3, 3, 4]
+Output: [1, 2, 3, 4]
+Concepts: filter + indexOf, OR Set
+
+✅ 8. Convert array of objects into an object grouped by category
+const items = [
+  { name: "Apple", category: "fruit" },
+  { name: "Carrot", category: "vegetable" },
+  { name: "Mango", category: "fruit" }
+];
+
+
+Output:
+
+{
+  fruit: ["Apple", "Mango"],
+  vegetable: ["Carrot"]
+}
+
+
+Concepts: reduce, grouping, array of objects
+
+✅ 9. Merge two arrays without duplicates
+
+Concepts: spread operator, Set
+
+✅ 10. Check if all users are above age 18
+
+Concepts: every()
+
+✅ 11. Find the first product costing more than 1000
+
+Concepts: find()
+
+✅ 12. Flatten a nested array
+
+Input: [1, [2, [3, [4]]]]
+Output: [1, 2, 3, 4]
+Concepts: recursion OR flat(Infinity)
+
+✅ 13. Convert array data into HTML list using map()
+
+Input:
+
+["Home", "About", "Contact"]
+
+
+Output:
+
+<ul><li>Home</li><li>About</li><li>Contact</li></ul>
+
+
+Concepts: map, string manipulation (common in React)
+
+✅ 14. Async fetch users and return only names
+
+Simulate API with a Promise:
+
+function getUsers() {
+  return Promise.resolve([
+    { name: "Amit" },
+    { name: "Rahul" }
+  ]);
+}
+
+
+Task: use async/await + map() to return names
+Concepts: async/await, Promises, map
+
+✅ 15. Cart total with discounts
+const cart = [
+  { name: "Item1", price: 1000, qty: 2 },
+  { name: "Item2", price: 500, qty: 1 }
+];
+
+
+Task:
+
+Multiply price × qty
+
+Add everything
+
+Apply 10% discount
+
+Concepts: map, reduce, arithmetic
+
+🎁 Bonus: 10 More Advanced Problems (if you need)
+
+I can give you:
+
+Array of objects sorting with multiple rules
+
+Filtering based on search input
+
+Pagination logic
+
+Removing items immutably (React-style)
+
+Updating one item in array immutably
+
+Nested array operations
+
+Parsing MongoDB-style API data
+
+Merging API responses
+
+Reducing array into frequency map
+
+Deep clone / shallow clone tasks
