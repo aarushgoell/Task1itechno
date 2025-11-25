@@ -9,3 +9,4 @@ const oldArr = [1,2,3,4];
 const newArr = oldArr.map((el) => el * 2);
 
 console.log(newArr);
+
