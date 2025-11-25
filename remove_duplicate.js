@@ -23,3 +23,6 @@ for(let num in mpp){
 }
 
 console.log(newArr);
+
+
+
