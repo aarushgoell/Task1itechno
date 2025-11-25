@@ -1,20 +1,20 @@
-// 2. Filter users who are active
 // const users = [
 //  { id: 1, name: "Amit", active: true },
 //   { id: 2, name: "Rahul", active: false },
 //   { id: 3, name: "Sneha", active: true }
 // ]; 
 
+// Input: array of user objects
+// Output: array of names
+// Concepts: map
 
-// Output: only users with active: true
-// Concepts: filter, array of objects
 
 const users = [
-  { id: 1, name: "Amit", active: true },
+ { id: 1, name: "Amit", active: true },
   { id: 2, name: "Rahul", active: false },
   { id: 3, name: "Sneha", active: true }
-];
+]; 
 
-const activeUsers = users.filter((obj)=>obj.active == 1);
+const allnames = users.map((obj)=>obj.name);
 
-console.log(activeUsers);
+console.log(allnames);
